@@ -10,7 +10,7 @@ const Skills = () => {
     skillsSection && (
       <Container className="text-center my-5 section section-lg">
         <h1 className="h1">{skillsSection.title}</h1>
-        <p className="lead">{skillsSection.subTitle}</p>
+        {/* <p className="lead">{skillsSection.subTitle}</p> */}
         {skillsSection.data.map((section, index) => {
           return (
             <Row className="my-5" key={index}>
