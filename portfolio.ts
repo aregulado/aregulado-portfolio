@@ -232,25 +232,29 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'Payo Website',
+    desc: 'Payo is an E-commerce enabler that provides holistic and tailor-fit solutions to address the needs of online merchants. We solve the challenges they encounter, improve their logistics process through tech-driven services, and help them scale faster.',
+    github: '',
+    link: 'https://payo.asia/',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'Payo Shopify App',
+    desc: 'Payo App lets you seamlessly integrate orders to Payo’s Order Management System.',
+    github: '',
+    link: 'https://apps.shopify.com/payo-cod',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: 'Payo Wordpress App',
+    desc: 'With Payo, merchants can seamlessly integrate all orders from their store to our centralized dashboard to oversee all their orders – both Paid and COD.',
+    github: '',
+    link: 'https://co.wordpress.org/plugins/payo-cod/',
   },
+  ,
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    name: 'Lamudi',
+    desc: 'Philippines\' No.1 Real Estate Partner',
+    github: '',
+    link: 'https://www.lamudi.com.ph/',
   },
 ];
 
@@ -269,7 +273,7 @@ export const feedbacks: FeedbackType[] = [
 
 // option to hide or show the ContactUs component
 export const showFeedback: boolean = false;
-export const showProjects: boolean = false;
+export const showProjects: boolean = true;
 export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
@@ -278,7 +282,7 @@ export const seoData: SEODataType = {
   description:
     'A passionate Full Stack Web Developer',
   author: 'Anthony Regulado',
-  image: 'https://avatars.githubusercontent.com/u/60086344?v=4',
+  image: 'https://avatars.githubusercontent.com/u/60086344?s=400&u=eee57efeb734c92e5701fb6286732b5c111dc14e&v=4',
   url: 'https://aregulado.github.io',
   keywords: [
     'Anthony Regulado',
