@@ -12,44 +12,51 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Anthony Regulado',
+  title: "Anthony Regulado",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "I'm a passionate Full Stack web developer having 5+ years of experience on developing scalable applications and websites with PHP(Laravel, Symfony) and Javascript(Node.js, Vue.js and React.js), improving company efficiency and productivity.",
   resumeLink:
     'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'aregulado',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  url: 'mailto:ajregulado@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/aregulado',
+  github: 'https://github.com/aregulado',
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  title: 'Skills',
+  // subTitle: 'FULL STACK DEVELOPMENT',
   data: [
     {
       title: 'Full Stack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Building fully functional responsive websites using Laravel and VueJS'),
+        emoji('⚡ Building RESTful APIs in Plain PHP, Laravel, Symfony and Node.js'),
+        emoji('⚡ Building responsive Single-Page-Apps (SPA) & PWA in Vue.js or React.js'),
       ],
       softwareSkills: [
+        {
+          skillName: 'PHP',
+          iconifyTag: 'skill-icons:php-dark',
+        },
+        {
+          skillName: 'Laravel',
+          iconifyTag: 'skill-icons:laravel-light',
+        },
+        {
+          skillName: 'Symfony',
+          iconifyTag: 'skill-icons:symfony-dark',
+        },
         {
           skillName: 'HTML-5',
           iconifyTag: 'vscode-icons:file-type-html',
@@ -63,25 +70,16 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'logos:javascript',
         },
         {
+          skillName: 'NodeJS',
+          iconifyTag: 'skill-icons:nodejs-light'
+        },
+        {
+          skillName: 'VueJS',
+          iconifyTag: 'skill-icons:vuejs-light',
+        },
+        {
           skillName: 'Reactjs',
           iconifyTag: 'vscode-icons:file-type-reactjs',
-        },
-        {
-          skillName: 'Nextjs',
-          iconifyTag: 'vscode-icons:file-type-light-next',
-        },
-        {
-          skillName: 'Python',
-          iconifyTag: 'logos:python',
-        },
-        {
-          skillName: 'Django',
-          iconifyTag: 'vscode-icons:file-type-django',
-        },
-
-        {
-          skillName: 'Redux',
-          iconifyTag: 'logos:redux',
         },
         {
           skillName: 'NPM',
@@ -91,6 +89,7 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Yarn',
           iconifyTag: 'logos:yarn',
         },
+        
       ],
     },
     {
@@ -102,7 +101,7 @@ export const skillsSection: SkillsSectionType = {
           '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
         ),
         emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
+          '⚡ Building CI/CD pipelines for automated testing & deployment using Bitbucket'
         ),
       ],
       softwareSkills: [
@@ -112,16 +111,12 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'logos:aws',
         },
         {
-          skillName: 'Azure',
-          iconifyTag: 'logos:microsoft-azure',
-        },
-        {
           skillName: 'Heroku',
           iconifyTag: 'logos:heroku-icon',
         },
         {
-          skillName: 'PostgreSQL',
-          iconifyTag: 'logos:postgresql',
+          skillName: 'MySQL',
+          iconifyTag: 'logos:mysql',
         },
         {
           skillName: 'Github',
@@ -132,128 +127,106 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'logos:docker-icon',
         },
         {
-          skillName: 'Github Actions',
-          iconifyTag: 'logos:github-actions',
-        },
-        {
-          skillName: 'Cloudinary',
-          iconifyTag: 'logos:cloudinary',
+          skillName: 'Bitbucket',
+          iconifyTag: 'devicon:bitbucket',
         },
         {
           skillName: 'Nginx',
           iconifyTag: 'logos:nginx',
         },
-        {
-          skillName: 'Sentry',
-          iconifyTag: 'logos:sentry-icon',
-        },
       ],
     },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          iconifyTag: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          iconifyTag: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          iconifyTag: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          iconifyTag: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          iconifyTag: 'logos:ganache-icon',
-        },
-      ],
-    },
+    // {
+    //   title: 'Blockchain',
+    //   lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
+    //   skills: [
+    //     emoji(
+    //       '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
+    //     ),
+    //     emoji(
+    //       '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
+    //     ),
+    //     emoji(
+    //       '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
+    //     ),
+    //     emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
+    //     emoji(
+    //       '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
+    //     ),
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: 'Ethereum',
+    //       iconifyTag: 'logos:ethereum',
+    //     },
+    //     {
+    //       skillName: 'Solidity',
+    //       iconifyTag: 'logos:solidity',
+    //     },
+    //     {
+    //       skillName: 'Web3js',
+    //       iconifyTag: 'logos:web3js',
+    //     },
+    //     {
+    //       skillName: 'Metamask',
+    //       iconifyTag: 'logos:metamask-icon',
+    //     },
+    //     {
+    //       skillName: 'Ganache',
+    //       iconifyTag: 'logos:ganache-icon',
+    //     },
+    //   ],
+    // },
   ],
 };
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    Stack: 'Backend',
+    progressPercentage: '90',
   },
   {
-    Stack: 'Backend',
-    progressPercentage: '70',
+    Stack: 'Frontend', //Insert stack or technology you have experience in
+    progressPercentage: '75', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Programming',
-    progressPercentage: '60',
+    progressPercentage: '80',
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
-    descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    ],
+    schoolName: 'STI College Carmona',
+    subHeader: 'Bachelor of Science in Information Technology',
+    duration: 'June 2013 - April 2017',
+    // desc: 'Participated in the research of XXX and published 3 papers.',
+    // grade: 'Grade A',
+    // descBullets: [
+    //   'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
+    //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    // ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'Software Developer',
+    company: 'Payo Asia',
+    companyLogo: '/img/icons/common/payo.png',
+    date: 'Oct 2020 – Nov 2023',
+    desc: 'I worked as software developer to develop internal systems and REST API for multiple apps using Laravel, Bootstrap, jQuery, Vue.js and also develop application for eCommerce platforms like Shopify and Woocommerce.',
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
+    role: 'Web Developer',
+    company: 'Lamudi Philippines',
+    companyLogo: '/img/icons/common/lamudi.png',
+    date: 'July 2018 – Oct 2020',
+    desc: 'I worked as Web Developer for their flagship website, lamudi.com.ph, a real estate classifieds websites. I worked with a fairly large team implementing agile methodology, and developed both frontend and backend features of the website. Also deployed to partner clients to provide custom solutions, notable projects include building a Custom CMS and landing pages.',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
-  },
-  {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-  },
-  {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
   },
 ];
 
@@ -295,23 +268,23 @@ export const feedbacks: FeedbackType[] = [
 ];
 
 // option to hide or show the ContactUs component
+export const showFeedback: boolean = false;
+export const showProjects: boolean = false;
 export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Anthony Regulado',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
+    'A passionate Full Stack Web Developer',
+  author: 'Anthony Regulado',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  url: 'https://aregulado.github.io',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Anthony Regulado',
+    'aregulado',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Regulado Portfolio ',
+    'Anthony Regulado Portfolio',
   ],
 };

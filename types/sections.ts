@@ -38,7 +38,7 @@ type SkillType = {
 
 export type SkillsSectionType = {
   title: string;
-  subTitle: string;
+  // subTitle: string;
   data: SkillType[];
 };
 
@@ -55,9 +55,9 @@ export type EducationType = {
   schoolName: string;
   subHeader: string;
   duration: string;
-  desc: string;
-  grade?: string;
-  descBullets?: string[];
+  // desc: string;
+  // grade?: string;
+  // descBullets?: string[];
 };
 
 // * EXPERIENCE SECTION
