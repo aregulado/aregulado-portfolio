@@ -232,14 +232,14 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'Payo Website',
+    name: 'Payo Main Website',
     desc: 'Payo is an E-commerce enabler that provides holistic and tailor-fit solutions to address the needs of online merchants. We solve the challenges they encounter, improve their logistics process through tech-driven services, and help them scale faster.',
     github: '',
     link: 'https://payo.asia/',
   },
   {
     name: 'Payo Shopify App',
-    desc: 'Payo App lets you seamlessly integrate orders to Payo’s Order Management System.',
+    desc: 'Payo App lets you seamlessly integrate orders to Payo\’s Order Management System.',
     github: '',
     link: 'https://apps.shopify.com/payo-cod',
   },
@@ -249,7 +249,6 @@ export const projects: ProjectType[] = [
     github: '',
     link: 'https://co.wordpress.org/plugins/payo-cod/',
   },
-  ,
   {
     name: 'Lamudi',
     desc: 'Philippines\' No.1 Real Estate Partner',
