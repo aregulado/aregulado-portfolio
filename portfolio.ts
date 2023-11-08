@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm a passionate Full Stack web developer having 5+ years of experience on developing scalable applications and websites with PHP(Laravel, Symfony) and Javascript(Node.js, Vue.js and React.js), improving company efficiency and productivity.",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://aregulado.github.io',
 };
 
 export const openSource = {
