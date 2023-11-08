@@ -27,10 +27,10 @@ export default function Home({
       <Greetings />
       <Skills />
       <Proficiency />
-      <Education />
       <Experience />
       {showFeedback ? <Feedbacks /> : null}
       {showProjects ? <Projects /> : null}
+      <Education />
       {showContactUs ? <Contact /> : null}
       <GithubProfileCard {...githubProfileData} />
     </div>
