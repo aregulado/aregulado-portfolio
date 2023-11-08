@@ -278,7 +278,7 @@ export const seoData: SEODataType = {
   description:
     'A passionate Full Stack Web Developer',
   author: 'Anthony Regulado',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  image: 'https://avatars.githubusercontent.com/u/60086344?v=4',
   url: 'https://aregulado.github.io',
   keywords: [
     'Anthony Regulado',
