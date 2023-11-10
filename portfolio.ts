@@ -202,7 +202,7 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'STI College Carmona',
+    schoolName: 'STI College Southwoods',
     subHeader: 'Bachelor of Science in Information Technology',
     duration: 'June 2013 - April 2017',
     // desc: 'Participated in the research of XXX and published 3 papers.',
@@ -237,26 +237,26 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'Payo Main Website',
-    desc: 'Payo is an E-commerce enabler that provides holistic and tailor-fit solutions to address the needs of online merchants. We solve the challenges they encounter, improve their logistics process through tech-driven services, and help them scale faster.',
+    name: 'Payo Website',
+    desc: 'Home website of Payo, showcasing their services. Built using wordpress.',
     github: '',
     link: 'https://payo.asia/',
   },
   {
     name: 'Payo Shopify App',
-    desc: 'Payo App lets you seamlessly integrate orders to Payo\’s Order Management System.',
+    desc: 'Companion app for Payo clients who uses Shopify platform. Enables them to push orders from Shopify directly to Payo System, and also order management. Built using Laravel and VueJS.',
     github: '',
     link: 'https://apps.shopify.com/payo-cod',
   },
   {
     name: 'Payo Wordpress App',
-    desc: 'With Payo, merchants can seamlessly integrate all orders from their store to our centralized dashboard to oversee all their orders – both Paid and COD.',
+    desc: 'Companion plugin for Payo clients who uses Woocommerce as their platform. Built using PHP.',
     github: '',
     link: 'https://co.wordpress.org/plugins/payo-cod/',
   },
   {
     name: 'Lamudi',
-    desc: 'Philippines\' No.1 Real Estate Partner',
+    desc: 'A real estate classifieds website. Built using Symfony and React.',
     github: '',
     link: 'https://www.lamudi.com.ph/',
   },
