@@ -43,7 +43,7 @@ export const skillsSection: SkillsSectionType = {
         emoji('⚡ Building fully functional responsive websites using Laravel and VueJS'),
         emoji('⚡ Building RESTful APIs in Plain PHP, Laravel, Symfony and Node.js'),
         emoji('⚡ Building responsive Single-Page-Apps (SPA) & PWA in Vue.js or React.js'),
-        emoji('⚡ Building Wordpress themes and plugins with custom functionality'),
+        emoji('⚡ Building Wordpress websites and plugins with custom functionality'),
       ],
       softwareSkills: [
         {
