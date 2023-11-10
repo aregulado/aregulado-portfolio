@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Anthony Regulado',
   title: "Anthony Regulado",
   description:
-    "I'm a passionate Full Stack web developer having 5+ years of experience on developing scalable applications and websites with PHP(Laravel, Symfony) and Javascript(Node.js, Vue.js and React.js), improving company efficiency and productivity.",
+    "I'm a passionate Full Stack web developer having 5+ years of experience on developing scalable applications and websites with PHP(Laravel, Symfony, Wordpress) and Javascript(Node.js, Vue.js and React.js), improving company efficiency and productivity.",
   resumeLink:
     'https://aregulado.github.io',
 };
@@ -43,6 +43,7 @@ export const skillsSection: SkillsSectionType = {
         emoji('⚡ Building fully functional responsive websites using Laravel and VueJS'),
         emoji('⚡ Building RESTful APIs in Plain PHP, Laravel, Symfony and Node.js'),
         emoji('⚡ Building responsive Single-Page-Apps (SPA) & PWA in Vue.js or React.js'),
+        emoji('⚡ Building Wordpress themes and plugins with custom functionality'),
       ],
       softwareSkills: [
         {
@@ -56,6 +57,10 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Symfony',
           iconifyTag: 'skill-icons:symfony-dark',
+        },
+        {
+          skillName: 'Wordpress',
+          iconifyTag: 'mdi:wordpress'
         },
         {
           skillName: 'HTML-5',
