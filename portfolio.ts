@@ -13,9 +13,9 @@ import {
 
 export const greetings: GreetingsType = {
   name: 'Anthony Regulado',
-  title: "Anthony Regulado",
+  title: "Anthony Jerome Regulado",
   description:
-    "I'm a passionate Full Stack web developer having 5+ years of experience on developing scalable applications and websites with PHP(Laravel, Symfony, Wordpress) and Javascript(Node.js, Vue.js and React.js), improving company efficiency and productivity.",
+    "Lead Full Stack Developer with 6+ years of experience designing and building scalable web applications. Skilled in both frontend and backend development, with a strong focus on improving system efficiency and business productivity.",
   resumeLink:
     'https://aregulado.github.io',
 };
@@ -40,10 +40,9 @@ export const skillsSection: SkillsSectionType = {
       title: 'Full Stack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Building fully functional responsive websites using Laravel and VueJS'),
-        emoji('⚡ Building RESTful APIs in Plain PHP, Laravel, Symfony and Node.js'),
-        emoji('⚡ Building responsive Single-Page-Apps (SPA) & PWA in Vue.js or React.js'),
-        emoji('⚡ Building Wordpress websites and plugins with custom functionality'),
+        emoji('⚡ Strong full-stack development background using Laravel, Symfony, Node.js on the backend and Vue, React, jQuery, ES6, HTML/CSS/SCSS on the frontend.'),
+        emoji('⚡ Experienced with multiple database technologies including MySQL, PostgreSQL, MongoDB, and Neo4j.'),
+        emoji('⚡ Proficient with third-party integrations and development tools, including Firebase, Stripe, Auth0, Shopify, WordPress, unit testing (Jest, PHPUnit), Git (GitHub/Bitbucket), Agile/Scrum, Linux, and AI-assisted tools such as ChatGPT, GitHub Copilot, and Cursor.'),
       ],
       softwareSkills: [
         {
@@ -101,12 +100,11 @@ export const skillsSection: SkillsSectionType = {
       title: 'Cloud Infra-Architecture',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
         emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
+          '⚡ Experienced in deploying and managing applications on AWS, Google Cloud Platform, and Vercel, leveraging cloud-native services for scalability and reliability.'
         ),
         emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Bitbucket'
+          '⚡ Proficient in Docker-based environments and CI/CD workflows, with hands-on expertise in server administration using WHM / cPanel.'
         ),
       ],
       softwareSkills: [
@@ -188,15 +186,15 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: 'Backend',
-    progressPercentage: '90',
+    progressPercentage: '95',
   },
   {
     Stack: 'Frontend', //Insert stack or technology you have experience in
-    progressPercentage: '75', //Insert relative proficiency in percentage
+    progressPercentage: '90', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Programming',
-    progressPercentage: '80',
+    progressPercentage: '95',
   },
 ];
 
@@ -216,18 +214,25 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Software Developer',
+    role: 'Lead Developer',
+    company: 'UK Internet Sites Ltd',
+    companyLogo: '/img/icons/common/uk-internet-sites-logo.png',
+    date: 'Nov 2023 - Present',
+    desc: 'Lead a 5-member team to modernize and secure high-traffic subscription platforms, improving performance by 30% and reducing production incidents through the implementation of secure coding standards.',
+  },
+  {
+    role: 'Fullstack Developer',
     company: 'Payo Asia',
     companyLogo: '/img/icons/common/payo.png',
     date: 'Oct 2020 – Nov 2023',
-    desc: 'I worked as software developer to develop internal systems and REST API for multiple apps using Laravel, Bootstrap, jQuery, Vue.js and also develop application for eCommerce platforms like Shopify and Woocommerce.',
+    desc: 'Developed and optimized the company’s Order Management System by implementing Docker-based AWS deployments, building partner API integrations, and introducing unit testing to support thousands of daily transactions with improved reliability and delivery speed.',
   },
   {
     role: 'Web Developer',
     company: 'Lamudi Philippines',
     companyLogo: '/img/icons/common/lamudi.png',
     date: 'July 2018 – Oct 2020',
-    desc: 'I worked as Web Developer for their flagship website, lamudi.com.ph, a real estate classifieds websites. I worked with a fairly large team implementing agile methodology, and developed both frontend and backend features of the website. Also deployed to partner clients to provide custom solutions, notable projects include building a Custom CMS and landing pages.',
+    desc: 'Built and maintained core features for Lamudi’s real estate platform and delivered custom CMS solutions for enterprise clients to manage high-volume property listings efficiently.',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -236,6 +241,12 @@ export const experience: ExperienceType[] = [
 ];
 
 export const projects: ProjectType[] = [
+  {
+    name: 'UK Internet Sites',
+    desc: 'Link showcasing company info and projects',
+    github: '',
+    link: 'https://ukinternetsites.com',
+  },
   {
     name: 'Payo Website',
     desc: 'Home website of Payo, showcasing their services. Built using wordpress.',
