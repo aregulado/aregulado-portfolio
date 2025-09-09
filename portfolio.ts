@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Anthony Regulado',
   title: "Anthony Jerome Regulado",
   description:
-    "Lead Full Stack Developer with 6+ years of experience designing and building scalable web applications. Skilled in both frontend and backend development, with a strong focus on improving system efficiency and business productivity.",
+    "Lead Full Stack Developer with 7+ years of experience designing and building scalable web applications. Skilled in both frontend and backend development, with a strong focus on improving system efficiency and business productivity.",
   resumeLink:
     'https://aregulado.github.io',
 };
