@@ -12,12 +12,11 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Anthony Regulado',
-  title: "Anthony Jerome Regulado",
+  name: 'Anthony Jerome Regulado',
+  title: 'Senior Fullstack Developer',
   description:
-    "Lead Full Stack Developer with 7+ years of experience designing and building scalable web applications. Skilled in both frontend and backend development, with a strong focus on improving system efficiency and business productivity.",
-  resumeLink:
-    'https://aregulado.github.io',
+    'Senior Fullstack Developer with 8+ years of experience designing and building scalable, high-traffic web and mobile applications. Experienced in technical leadership, architecture, API design, CI/CD, cloud infrastructure, security hardening, and AI-assisted development.',
+  resumeLink: 'https://aregulado.vercel.app',
 };
 
 export const openSource = {
@@ -37,14 +36,22 @@ export const skillsSection: SkillsSectionType = {
   // subTitle: 'FULL STACK DEVELOPMENT',
   data: [
     {
-      title: 'Full Stack Development',
+      title: 'Languages & Backend',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Strong full-stack development background using Laravel, Symfony, Node.js on the backend and Vue, React, jQuery, ES6, HTML/CSS/SCSS on the frontend.'),
-        emoji('⚡ Experienced with multiple database technologies including MySQL, PostgreSQL, MongoDB, and Neo4j.'),
-        emoji('⚡ Proficient with third-party integrations and development tools, including Firebase, Stripe, Auth0, Shopify, WordPress, unit testing (Jest, PHPUnit), Git (GitHub/Bitbucket), Agile/Scrum, Linux, and AI-assisted tools such as ChatGPT, GitHub Copilot, and Cursor.'),
+        emoji('⚡ TypeScript, JavaScript (ES6+), and PHP development across the full application lifecycle.'),
+        emoji('⚡ Laravel, Symfony, Node.js, REST APIs, and high-volume transaction systems.'),
+        emoji('⚡ MySQL, PostgreSQL, MongoDB, and Neo4j, with PHPUnit, Jest, unit, and integration testing.'),
       ],
       softwareSkills: [
+        {
+          skillName: 'TypeScript',
+          iconifyTag: 'logos:typescript-icon',
+        },
+        {
+          skillName: 'JavaScript',
+          iconifyTag: 'logos:javascript',
+        },
         {
           skillName: 'PHP',
           iconifyTag: 'skill-icons:php-dark',
@@ -58,85 +65,61 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'skill-icons:symfony-dark',
         },
         {
-          skillName: 'Wordpress',
-          iconifyTag: 'mdi:wordpress'
-        },
-        {
-          skillName: 'HTML-5',
-          iconifyTag: 'vscode-icons:file-type-html',
-        },
-        {
-          skillName: 'CSS-3',
-          iconifyTag: 'vscode-icons:file-type-css',
-        },
-        {
-          skillName: 'JavaScript',
-          iconifyTag: 'logos:javascript',
-        },
-        {
           skillName: 'NodeJS',
-          iconifyTag: 'skill-icons:nodejs-light'
-        },
-        {
-          skillName: 'VueJS',
-          iconifyTag: 'skill-icons:vuejs-light',
-        },
-        {
-          skillName: 'Reactjs',
-          iconifyTag: 'vscode-icons:file-type-reactjs',
-        },
-        {
-          skillName: 'NPM',
-          iconifyTag: 'logos:npm-icon',
-        },
-        {
-          skillName: 'Yarn',
-          iconifyTag: 'logos:yarn',
-        },
-        
-      ],
-    },
-    {
-      title: 'Cloud Infra-Architecture',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experienced in deploying and managing applications on AWS, Google Cloud Platform, and Vercel, leveraging cloud-native services for scalability and reliability.'
-        ),
-        emoji(
-          '⚡ Proficient in Docker-based environments and CI/CD workflows, with hands-on expertise in server administration using WHM / cPanel.'
-        ),
-      ],
-      softwareSkills: [
-        // ? Check README To get icon details
-        {
-          skillName: 'AWS',
-          iconifyTag: 'logos:aws',
-        },
-        {
-          skillName: 'Heroku',
-          iconifyTag: 'logos:heroku-icon',
+          iconifyTag: 'skill-icons:nodejs-light',
         },
         {
           skillName: 'MySQL',
           iconifyTag: 'logos:mysql',
         },
         {
-          skillName: 'Github',
-          iconifyTag: 'akar-icons:github-fill',
+          skillName: 'PostgreSQL',
+          iconifyTag: 'logos:postgresql',
         },
         {
-          skillName: 'Docker',
-          iconifyTag: 'logos:docker-icon',
+          skillName: 'MongoDB',
+          iconifyTag: 'logos:mongodb',
         },
         {
-          skillName: 'Bitbucket',
-          iconifyTag: 'devicon:bitbucket',
+          skillName: 'Neo4j',
+          iconifyTag: 'logos:neo4j',
         },
-        {
-          skillName: 'Nginx',
-          iconifyTag: 'logos:nginx',
-        },
+      ],
+    },
+    {
+      title: 'Frontend & Mobile',
+      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      skills: [
+        emoji('⚡ Vue.js, React, HTML, CSS/SCSS, Bootstrap, and jQuery for responsive web experiences.'),
+        emoji('⚡ React Native, Expo, and Flutter applications for iOS and Android.'),
+        emoji('⚡ Built a Flutter ordering, real-time tracking, and order management app for Payo Asia.'),
+      ],
+      softwareSkills: [
+        { skillName: 'VueJS', iconifyTag: 'skill-icons:vuejs-light' },
+        { skillName: 'React', iconifyTag: 'logos:react' },
+        { skillName: 'React Native', iconifyTag: 'logos:react' },
+        { skillName: 'Expo', iconifyTag: 'simple-icons:expo' },
+        { skillName: 'Flutter', iconifyTag: 'logos:flutter' },
+        { skillName: 'HTML-5', iconifyTag: 'vscode-icons:file-type-html' },
+        { skillName: 'CSS-3', iconifyTag: 'vscode-icons:file-type-css' },
+      ],
+    },
+    {
+      title: 'Cloud, Integrations & Tooling',
+      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
+      skills: [
+        emoji('⚡ AWS, Google Cloud Platform, Docker, Vercel, WHM/cPanel, Linux, and GitHub Actions for reliable delivery.'),
+        emoji('⚡ Firebase, Stripe, Auth0, Google Maps API, Shopify, and WordPress integrations.'),
+        emoji('⚡ Claude Code, GitHub Copilot, Cursor, ChatGPT, Git, GitHub, Bitbucket, Jira, and Agile/Scrum workflows.'),
+      ],
+      softwareSkills: [
+        { skillName: 'AWS', iconifyTag: 'logos:aws' },
+        { skillName: 'Google Cloud', iconifyTag: 'logos:google-cloud' },
+        { skillName: 'Docker', iconifyTag: 'logos:docker-icon' },
+        { skillName: 'Vercel', iconifyTag: 'logos:vercel-icon' },
+        { skillName: 'GitHub', iconifyTag: 'akar-icons:github-fill' },
+        { skillName: 'Bitbucket', iconifyTag: 'devicon:bitbucket' },
+        { skillName: 'WordPress', iconifyTag: 'mdi:wordpress' },
       ],
     },
     // {
@@ -196,13 +179,17 @@ export const SkillBars: SkillBarsType[] = [
     Stack: 'Programming',
     progressPercentage: '95',
   },
+  {
+    Stack: 'Mobile',
+    progressPercentage: '85',
+  },
 ];
 
 export const educationInfo: EducationType[] = [
   {
     schoolName: 'STI College Southwoods',
     subHeader: 'Bachelor of Science in Information Technology',
-    duration: 'June 2013 - April 2017',
+    duration: '2013 – 2017',
     // desc: 'Participated in the research of XXX and published 3 papers.',
     // grade: 'Grade A',
     // descBullets: [
@@ -214,77 +201,77 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Lead Developer',
+    role: 'Senior Fullstack Developer',
     company: 'UK Internet Sites Ltd',
     companyLogo: '/img/icons/common/uk-internet-sites-logo.png',
-    date: 'Nov 2023 - Present',
-    desc: 'Lead a 5-member team to modernize and secure high-traffic subscription platforms, improving performance by 30% and reducing production incidents through the implementation of secure coding standards.',
+    date: 'November 2023 – Present',
+    desc: 'Tech stack: PHP, Laravel, Vue.js, TypeScript, WordPress, and Expo. Led a 5-member cross-functional team delivering high-traffic subscription websites serving thousands of concurrent users.',
+    descBullets: [
+      'Drove AI developer workflow improvements with agent skills, MCP integrations, Copilot CLI, spec-driven development, and GitHub Actions automation.',
+      'Modernized a legacy PHP monolith and refactored APIs and frontend layers to improve page-load and API-response performance.',
+      'Implemented input validation, rate limiting, secure authentication flows, coding standards, code reviews, and deployment checklists.',
+      'Mentored junior developers, ran sprint planning, and coordinated requirements and delivery timelines with stakeholders.',
+      'Leading the migration of existing projects to Expo and planning the team’s upcoming mobile app initiative.',
+    ],
   },
   {
-    role: 'Fullstack Developer',
+    role: 'Full Stack Developer',
     company: 'Payo Asia',
     companyLogo: '/img/icons/common/payo.png',
-    date: 'Oct 2020 – Nov 2023',
-    desc: 'Developed and optimized the company’s Order Management System by implementing Docker-based AWS deployments, building partner API integrations, and introducing unit testing to support thousands of daily transactions with improved reliability and delivery speed.',
+    date: 'October 2020 – November 2023',
+    desc: 'Tech stack: Laravel, Symfony, Vue.js, Node.js, WordPress, and Flutter. Developed and maintained a high-volume Order Management System processing thousands of daily transactions reliably.',
+    descBullets: [
+      'Built a cross-platform Flutter client app for ordering, real-time tracking, and order management across same-day and standard shipping.',
+      'Led migration to Dockerized AWS deployments, improving release-cycle time and DevOps efficiency.',
+      'Designed partner API integrations and introduced unit testing practices that reduced regression incidents.',
+    ],
   },
   {
     role: 'Web Developer',
     company: 'Lamudi Philippines',
     companyLogo: '/img/icons/common/lamudi.png',
-    date: 'July 2018 – Oct 2020',
-    desc: 'Built and maintained core features for Lamudi’s real estate platform and delivered custom CMS solutions for enterprise clients to manage high-volume property listings efficiently.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    date: 'July 2018 – October 2020',
+    desc: 'Tech stack: Symfony, React, and React Native. Built and maintained core features for lamudi.com, one of the Philippines’ leading real estate platforms.',
+    descBullets: [
+      'Developed custom CMS solutions enabling enterprise clients to manage large-scale property listing portfolios.',
+    ],
   },
 ];
 
 export const projects: ProjectType[] = [
   {
     name: 'UK Internet Sites',
-    desc: 'Link showcasing company info and projects',
+    desc: 'High-traffic subscription websites modernized with secure coding standards, performance improvements, and AI-assisted engineering workflows.',
     github: '',
     link: 'https://ukinternetsites.com',
   },
   {
-    name: 'Payo Website',
-    desc: 'Home website of Payo, showcasing their services. Built using wordpress.',
+    name: 'Payo Order Management System',
+    desc: 'High-volume Laravel and Symfony platform supporting thousands of daily transactions, partner API integrations, and Dockerized AWS deployments.',
     github: '',
     link: 'https://payo.asia/',
   },
   {
-    name: 'Payo Shopify App',
-    desc: 'Companion app for Payo clients who uses Shopify platform. Enables them to push orders from Shopify directly to Payo System, and also order management. Built using Laravel and VueJS.',
+    name: 'Payo Flutter Mobile App',
+    desc: 'Cross-platform ordering app with same-day and standard shipping, real-time order tracking, and order management.',
     github: '',
-    link: 'https://apps.shopify.com/payo-cod',
+    link: 'https://payo.asia/',
   },
   {
-    name: 'Payo Wordpress App',
-    desc: 'Companion plugin for Payo clients who uses Woocommerce as their platform. Built using PHP.',
+    name: 'Freelance Navigation App',
+    desc: 'Laravel and Neo4j backend integrated with Google Maps, Firebase, and Auth0, with Stripe payments and a Flutter frontend contribution.',
     github: '',
-    link: 'https://co.wordpress.org/plugins/payo-cod/',
   },
   {
     name: 'Lamudi',
-    desc: 'A real estate classifieds website. Built using Symfony and React.',
+    desc: 'Real estate platform built with Symfony and React, including CMS tooling for large-scale property listing portfolios.',
     github: '',
     link: 'https://www.lamudi.com.ph/',
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-];
+// Resume contains no testimonials; keep section empty until real feedback is available.
+export const feedbacks: FeedbackType[] = [];
 
 // option to hide or show the ContactUs component
 export const showFeedback: boolean = false;
@@ -293,17 +280,24 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Anthony Regulado',
+  title: 'Anthony Jerome Regulado | Senior Fullstack Developer',
   description:
-    'A passionate Full Stack Web Developer',
-  author: 'Anthony Regulado',
+    'Senior Fullstack Developer with 8+ years of experience building scalable web and mobile applications.',
+  author: 'Anthony Jerome Regulado',
   image: 'https://avatars.githubusercontent.com/u/60086344?s=400&u=eee57efeb734c92e5701fb6286732b5c111dc14e&v=4',
-  url: 'https://aregulado.github.io',
+  url: 'https://aregulado.vercel.app',
   keywords: [
-    'Anthony Regulado',
+    'Anthony Jerome Regulado',
     'aregulado',
+    'Senior Fullstack Developer',
+    'TypeScript',
+    'PHP',
+    'Laravel',
+    'Vue',
+    'React',
+    'React Native',
+    'Flutter',
+    'AWS',
     'Portfolio',
-    'Regulado Portfolio ',
-    'Anthony Regulado Portfolio',
   ],
 };
