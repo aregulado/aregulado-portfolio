@@ -42,9 +42,34 @@ export default function Home({
 // };
 
 export async function getStaticProps() {
-  const githubProfileData: GithubUserType = await fetch(
-    `https://api.github.com/users/${openSource.githubUserName}`
-  ).then((res) => res.json());
+  const fallbackGithubProfile: Pick<
+    GithubUserType,
+    'avatar_url' | 'bio' | 'location'
+  > = {
+    avatar_url:
+      'https://avatars.githubusercontent.com/u/60086344?s=400&u=eee57efeb734c92e5701fb6286732b5c111dc14e&v=4',
+    bio: 'Senior Fullstack Developer building scalable web and mobile applications.',
+    location: 'Philippines',
+  };
+
+  let githubProfileData = fallbackGithubProfile;
+
+  try {
+    const response = await fetch(
+      `https://api.github.com/users/${openSource.githubUserName}`
+    );
+
+    if (response.ok) {
+      const profile = await response.json();
+      githubProfileData = {
+        avatar_url: profile.avatar_url || fallbackGithubProfile.avatar_url,
+        bio: profile.bio || fallbackGithubProfile.bio,
+        location: profile.location || fallbackGithubProfile.location,
+      };
+    }
+  } catch {
+    // Keep static generation working when GitHub is unavailable.
+  }
 
   return {
     props: { githubProfileData },
