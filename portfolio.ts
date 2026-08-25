@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: 'Senior Fullstack Developer',
   description:
     'Senior Fullstack Developer with 8+ years of experience designing and building scalable, high-traffic web and mobile applications. Experienced in technical leadership, architecture, API design, CI/CD, cloud infrastructure, security hardening, and AI-assisted development.',
-  resumeLink: 'https://aregulado.vercel.app',
+  resumeLink: 'https://aregulado.github.io',
 };
 
 export const openSource = {
